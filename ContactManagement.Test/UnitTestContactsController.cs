@@ -14,7 +14,7 @@ namespace ContactManagement.Test
         {
             var list = GetContacts();
             var controller = new ContactsController();
-            var result = controller.GetContacts("") as List<ContactModels>;
+            var result = controller.GetContacts("AASDD") as List<ContactModels>;
             Assert.AreEqual(list.Count, result.Count);
         }
 
