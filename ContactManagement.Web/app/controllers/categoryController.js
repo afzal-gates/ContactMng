@@ -75,7 +75,6 @@ app.controller('categoryController', ['$scope', '$route', '$filter', 'ngAuthSett
             });
         };
 
-
         $scope.deleteData = function (id) {
 
             var data = $scope.form;
