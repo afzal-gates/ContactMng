@@ -1,4 +1,7 @@
 # ContactMng
+Only Social Loggin Features are avail able. Sign-up Process not work currently.
+
+
 
 ![Login](https://user-images.githubusercontent.com/26620140/57980076-0f091c00-7a48-11e9-92c9-6e0d0f5e9f55.JPG)
 
