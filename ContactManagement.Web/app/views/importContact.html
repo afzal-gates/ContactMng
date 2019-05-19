@@ -1,0 +1,17 @@
+﻿
+<!--<link href="Content/bootstrap.min.css" rel="stylesheet" />-->
+
+
+<div class="container" style="margin-top:50px;">
+
+
+    <input type="file" name="file" accept=".xlsx, .xls, .csv" class="form-control"
+           onchange="angular.element(this).scope().loadFile(this.files)" />
+    <br /><br />
+    <input type="button" value="Import Data" class="btn btn-default"
+           ng-click="handleFile()" />
+    <br />
+    <p ng-bind="msg"></p>
+
+</div>
+
