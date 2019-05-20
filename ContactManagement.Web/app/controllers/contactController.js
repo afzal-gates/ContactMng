@@ -95,6 +95,7 @@ app.controller('contactController', ['$scope', '$http', '$filter', '$route', 'ng
         $scope.submitAll = function () {
 
             var data = $scope.form;
+            data['UserName'] = authService.authentication.userName;
 
             return contactService.saveDataByUrl(data, 'api/contacts/save').then(function (res) {
 
